@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: RESTAU
+  datasource:
+    #driverClassName: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://host.docker.internal:3306/restau
+    url: jdbc:mysql://localhost:3306/restau
+    username: root
+    password:
+  jpa:
+    hibernate.ddl-auto: none
+    generate-ddl: true
+    show-sql: true

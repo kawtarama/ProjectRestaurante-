@@ -1,0 +1,10 @@
+iframe {
+    width: 100%;
+    height: 650px;
+}
+.wider-column {
+    width: 20%; /* Adjust the width as needed */
+  }
+mat-icon {
+    cursor: pointer;
+}
